@@ -1,0 +1,9 @@
+/* File: styles/23-style.css */
+.footer-address {
+  colorHere's how to complete each CSS task based on your provided requirements:
+
+### 1. Effortless transitions when scrolling
+```css
+html {
+  scroll-behavior: smooth;
+}
