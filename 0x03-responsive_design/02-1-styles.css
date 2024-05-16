@@ -1,0 +1,43 @@
+/* 02-1-styles.css */
+
+/* Helpers */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section Latest news */
+@media (max-width: 767px) {
+    .section-latest-news .row {
+        flex-direction: column;
+    }
+}
+
+/* Grid section */
+.section-grid {
+    --section-padding: 5rem 1.5rem;
+    --section-body-padding: 2rem 0 0;
+}
+
+@media (max-width: 767px) {
+    .section-grid {
+        padding: var(--section-padding);
+    }
+    .row, .col-1-3, .col-1-2 {
+        margin: 0;
+        flex-direction: column;
+    }
+    .col-1-3, .col-1-2 {
+        margin-bottom: 3rem;
+    }
+    .col-1-3, .col-1-2 {
+        width: 100%;
+    }
+}
+
+/* Navbar section */
+@media (max-width: 767px) {
+    .navbar-menu {
+        display: none;
+    }
+}

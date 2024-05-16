@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="03-styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <img
+            sizes="(max-width: 3000px) 40vw, 1200px"
+            srcset="
+              images/pic-about-01_1200.jpg 1200w,
+              images/pic-about-01_853.jpg 853w,
+              images/pic-about-01_380.jpg 380w"
+            src="images/pic-about-01_1200.jpg"
+            alt="About Image">
+        
+        <img
+            sizes="(max-width: 3000px) 40vw, 1200px"
+            srcset="
+              images/pic-article-01_1200.jpg 1200w,
+              images/pic-article-01_853.jpg 853w,
+              images/pic-article-01_380.jpg 380w"
+            src="images/pic-article-01_1200.jpg"
+            alt="Article Image 1">
+        
+        <img
+            sizes="(max-width: 3000px) 40vw, 1200px"
+            srcset="
+              images/pic-article-02_1200.jpg 1200w,
+              images/pic-article-02_853.jpg 853w,
+              images/pic-article-02_380.jpg 380w"
+            src="images/pic-article-02_1200.jpg"
+            alt="Article Image 2">
+        
+        <img
+            sizes="(max-width: 3000px) 40vw, 1200px"
+            srcset="
+              images/pic-article-03_1200.jpg 1200w,
+              images/pic-article-03_853.jpg 853w,
+              images/pic-article-03_380.jpg 380w"
+            src="images/pic-article-03_1200.jpg"
+            alt="Article Image 3">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+/* 06-styles.css */
+
+/* menu btn */
+.menu-btn {
+    display: none;
+}
+
+.navbar-menu {
+    display: none;
+}
+
+.menu-btn:checked+.navbar-menu {
+    display: block;
+}
+
+.navbar-menu .nav {
+    max-height: 100%;
+    overflow: inherit;
+}
