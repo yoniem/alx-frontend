@@ -1,12 +1,14 @@
+/* 27-style.css */
+
 :root {
-  --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --transition-duration: 0.3s;
+  --transition-timing-function: ease-in-out;
 }
 
-body {
-  font-family: var(--font-family-base);
+button {
+  transition: background-color var(--transition-duration) var(--transition-timing-function);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
+button:hover {
+  background-color: var(--primary-color);
 }

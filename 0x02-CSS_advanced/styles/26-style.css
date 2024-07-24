@@ -1,16 +1,9 @@
+/* 26-style.css */
+
 :root {
-  --color-primary: #d73953;
-  --color-black: #090909;
-  --color-white: #ffffff;
-  --color-light-grey: #f3f3f3;
-  --color-dark-grey: #353535;
-  --text-color: var(--color-black);
+  --primary-color: #e74c3c;
 }
 
-.section-tagline, .card-category {
-  color: var(--color-primary);
-}
-
-body, a {
-  color: var(--text-color);
+body {
+  color: var(--primary-color);
 }

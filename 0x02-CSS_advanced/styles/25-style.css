@@ -1,15 +1,9 @@
+/* 25-style.css */
+
+:root {
+  --primary-color: #3498db;
+}
+
 body {
-  color: #161616;
-}
-
-a {
-  color: #161616;
-}
-
-.visually-hidden {
-  display: none;
-}
-
-.card-category, .section-tagline {
-  color: #D73953;
+  color: var(--primary-color);
 }

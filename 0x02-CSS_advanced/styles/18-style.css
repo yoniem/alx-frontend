@@ -1,39 +1,106 @@
-/* File: styles/18-style.css */
-:root {
-  --nav-item-font-family: var(--font-family-title);
-  --nav-item-font-weight: var(--font-weight-bold);
-  --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 4%;
-  --nav-item-display: inline-block;
-  --nav-item-margin: 3rem 0 0 0;
-  --nav-item-link-hover: var(--color-primary);
-}
+/* 18-style.css */
 
-.navbar-menu {
-  float: right;
-}
-
-nav {
+/* General Styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
   margin: 0;
   padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header */
+.header {
+  background-color: #f8f8f8;
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Navigation */
+.nav {
   list-style: none;
+  padding: 0;
+  margin: 2rem 0;
   text-align: center;
 }
 
-.nav-item {
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size);
-  letter-spacing: var(--nav-item-letter-spacing);
-  display: var(--nav-item-display);
-  margin: var(--nav-item-margin);
+.nav li {
+  display: inline;
+  margin: 0 1rem;
 }
 
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
-.nav-item:hover .nav-link {
-  color: var(--nav-item-link-hover);
+/* Hero Section */
+.hero {
+  background: url('hero.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+/* Button Styles */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f8f8;
+  padding: 1rem 0;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+}
+
+.footer p {
+  margin: 0;
 }
