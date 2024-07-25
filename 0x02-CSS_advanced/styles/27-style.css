@@ -1,14 +1,5 @@
-/* 27-style.css */
-
-:root {
-  --transition-duration: 0.3s;
-  --transition-timing-function: ease-in-out;
-}
-
-button {
-  transition: background-color var(--transition-duration) var(--transition-timing-function);
-}
-
-button:hover {
-  background-color: var(--primary-color);
+/* Updated .card-work .card-image styles */
+.card-work .card-image {
+    position: relative;
+    overflow: hidden;
 }

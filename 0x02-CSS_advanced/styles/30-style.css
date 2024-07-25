@@ -1,19 +1,8 @@
-/* 30-style.css */
-
-:root {
-  --font-size-small: 12px;
-  --font-size-medium: 16px;
-  --font-size-large: 20px;
-}
-
-h1 {
-  font-size: var(--font-size-large);
-}
-
-p {
-  font-size: var(--font-size-medium);
-}
-
-small {
-  font-size: var(--font-size-small);
+/* Updated .card-work .card-inner styles */
+.card-work .card-inner {
+    position: absolute;
+    top: -0.1rem;
+    left: -0.1rem;
+    right: -0.1rem;
+    z-index: 1;
 }

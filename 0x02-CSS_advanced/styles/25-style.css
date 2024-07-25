@@ -1,9 +1,8 @@
-/* 25-style.css */
-
-:root {
-  --primary-color: #3498db;
-}
-
-body {
-  color: var(--primary-color);
+/* Updated .card-work .card-inner styles */
+.card-work .card-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }

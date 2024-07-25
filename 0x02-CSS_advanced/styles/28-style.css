@@ -1,15 +1,5 @@
-/* 28-style.css */
-
-:root {
-  --primary-color: #3498db;
-  --hover-color: #2980b9;
-}
-
-button {
-  background-color: var(--primary-color);
-  transition: background-color 0.3s ease-in-out;
-}
-
-button:hover {
-  background-color: var(--hover-color);
+/* Updated .card-work .card-outer styles */
+.card-work .card-outer {
+    position: relative;
+    overflow: hidden;
 }

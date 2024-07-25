@@ -1,9 +1,4 @@
-/* 26-style.css */
-
-:root {
-  --primary-color: #e74c3c;
-}
-
-body {
-  color: var(--primary-color);
+/* Updated .card-work:hover .card-inner styles */
+.card-work:hover .card-inner {
+    background-color: rgba(0, 0, 0, 0.7);
 }

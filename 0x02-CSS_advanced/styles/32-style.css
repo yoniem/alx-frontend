@@ -1,38 +1,26 @@
-/* 32-style.css */
-
-/* Global Styles */
+/* Transition settings */
 :root {
-  --transition-duration: 0.3s;
-  --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.0);
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0.17, 0.67, 0, 1.0);
 }
 
-/* Works Section Transitions */
-.card-work:hover .card-image img {
-  transform: scale(1.2);
-}
-
+/* Hover effects for .card-image and .card-outer */
+.card-work:hover .card-image,
 .card-work:hover .card-outer {
-  transform: scale(0.95);
+    transition: transform .3s cubic-bezier(0.17, 0.67, 0, 1.0);
 }
 
-/* Nav Link Transitions */
+/* Transition for .nav .nav-link::before */
 .nav .nav-link::before {
-  transition: width var(--transition-duration) var(--transition-cubic-bezier);
+    transition: all .3s cubic-bezier(0.17, 0.67, 0, 1.0);
 }
 
-.nav .nav-link {
-  transition: color var(--transition-duration) var(--transition-cubic-bezier);
-}
-
-/* Button Transitions */
+/* Hover state of .button */
 .button:hover {
-  transition-duration: var(--transition-duration);
-  transition-property: background-color;
+    transition: background-color .3s cubic-bezier(0.17, 0.67, 0, 1.0);
 }
 
-/* Additional Transitions */
-.card-work .card-inner,
-.card-work:hover .card-inner,
-.card-work:hover .card-image {
-  transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+/* Transition for .card-work .card-inner */
+.card-work .card-inner {
+    transition: all .3s cubic-bezier(0.17, 0.67, 0, 1.0);
 }

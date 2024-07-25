@@ -1,9 +1,4 @@
-/* 23-style.css */
-
-:root {
-  --font-size: 16px;
-}
-
-body {
-  font-size: var(--font-size);
+/* Updated .card-work styles */
+.card-work {
+    background-color: #fff;
 }
